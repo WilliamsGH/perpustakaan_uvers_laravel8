@@ -1,0 +1,154 @@
+/* Global */
+.min-vh-70 {
+  min-height: 70vh !important;
+}
+
+.table-border-bottom {
+  th,
+  td {
+    border-bottom: 1.5px solid gray !important;
+  }
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+/* Ri - Pe  */
+.ri-pe-form-search {
+  width: 100% !important;
+  max-height: 31.92px;
+}
+
+.ri-pe-search-icon-box {
+  border: 1px solid #387df5;
+  border-right: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 10%;
+  min-width: 34px;
+  min-height: 31.92px;
+}
+
+.ri-pe-form-pencarian {
+  border: 1px solid #387df5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.3rem 0.85rem;
+  width: 75%;
+}
+
+.ri-pe-date {
+  min-width: 90px;
+  max-width: 9vw;
+  min-height: 31.92px;
+  max-height: 31.92px;
+}
+
+.ri-pe-btn-filter {
+  min-width: 70px !important;
+  height: 31.92px !important;
+}
+
+.ri-pe-table tr th {
+  font-size: 1.9vw;
+}
+
+.ri-pe-table tr td {
+  font-size: 1.7vw;
+}
+
+.ri-pe-btn-aksi {
+  width: 5vw;
+}
+
+@media (min-width: 576px) {
+  .ri-pe-search-icon-box {
+    width: 15%;
+    max-width: 45px !important;
+  }
+
+  .ri-pe-form-pencarian {
+    width: 65%;
+  }
+
+  .ri-pe-form-search {
+    width: 60% !important;
+  }
+
+  .ri-pe-table th[scope='col tanggal-pinjam'] {
+    width: 22%;
+  }
+
+  .ri-pe-table th[scope='col jatuh-tempo'] {
+    width: 20%;
+  }
+
+  .ri-pe-table th[scope='col jumlah-buku'] {
+    width: 20%;
+  }
+
+  .ri-pe-btn-aksi {
+    width: 3vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .ri-pe-form-search {
+    width: 50% !important;
+  }
+
+  .ri-pe-search-icon-box {
+    width: 10%;
+  }
+
+  .ri-pe-form-pencarian {
+    width: 75%;
+  }
+
+  .ri-pe-table tr th {
+    font-size: 1.5vw;
+  }
+
+  .ri-pe-table tr td {
+    font-size: 1.3vw;
+  }
+
+  .ri-pe-table th[scope='col tanggal-pinjam'] {
+    width: 18%;
+  }
+
+  .ri-pe-table th[scope='col jatuh-tempo'] {
+    width: 16%;
+  }
+
+  .ri-pe-table th[scope='col jumlah-buku'] {
+    width: 16%;
+  }
+
+  .ri-pe-btn-aksi {
+    width: 2.6vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .ri-pe-search-icon-box {
+    width: 10%;
+    max-width: 40px !important;
+  }
+
+  .ri-pe-form-pencarian {
+    width: 75%;
+  }
+
+  .ri-pe-table tr th {
+    font-size: 1.3vw;
+  }
+
+  .ri-pe-table tr td {
+    font-size: 1.1vw;
+  }
+
+  .ri-pe-btn-aksi {
+    width: 2.9vw;
+  }
+}

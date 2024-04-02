@@ -1,0 +1,65 @@
+.table-border-bottom {
+  th,
+  td {
+    border-bottom: 1.5px solid #d8d8d8;
+  }
+}
+
+.notifikasi-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.notifikasi-table tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.notifikasi-table th[scope='row'] {
+  font-weight: bold;
+}
+
+.notifikasi-table th[scope='row date'] {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+.notifikasi-table tr > th {
+  font-weight: 800;
+}
+
+.btn-tutup {
+  font-size: 3vw;
+  width: 25vw;
+  background-color: #4cb6f3;
+  color: white;
+}
+
+.detail-informasi-table {
+  th,
+  td {
+    padding: 0.75rem 1rem;
+  }
+}
+
+table th[scope='row detail-informasi'] {
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .btn-tutup {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-tutup {
+    width: 17vw;
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-tutup {
+    width: 15vw;
+    font-size: 1.7vw;
+  }
+}

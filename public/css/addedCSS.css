@@ -1,0 +1,30 @@
+li.sidebar-item:nth-child(5) {
+  width: 100%;
+  position: absolute;
+  bottom: 7.5vh;
+}
+
+a.sidebar-link.logout {
+  border: 1px solid #686868;
+  border-radius: 10px;
+}
+
+/* input[type='date'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='date'],
+input[type='date']:focus {
+  border: none;
+  box-shadow: none;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input[type='date']::placeholder {
+  display: none;
+} */

@@ -1,0 +1,280 @@
+/* Global */
+.min-vh-70 {
+  min-height: 70vh !important;
+}
+
+.table-border-bottom {
+  th,
+  td {
+    border-bottom: 1.5px solid gray !important;
+  }
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+/* Anggota */
+.anggota-form-search {
+  width: 100% !important;
+}
+
+.anggota-search-icon-box {
+  border: 1px solid #387df5;
+  border-right: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 10%;
+  min-width: 34px;
+  min-height: 31.92px;
+}
+
+.anggota-form-pencarian {
+  border: 1px solid #387df5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.3rem 0.85rem;
+  width: 75%;
+}
+
+.anggota-tambah-anggota-box {
+  background-color: #00b290;
+  color: white;
+  border-radius: 1.5rem;
+  width: 12rem;
+  min-height: 31.92px;
+}
+
+.anggota-table tr th {
+  font-size: 2.3vw;
+}
+
+.anggota-table tr td {
+  font-size: 2.1vw;
+}
+
+.anggota-btn-aksi {
+  width: 5vw;
+}
+
+/* Anggota Tambah */
+form.anggota-tambah label,
+form.anggota-edit label {
+  color: #555555;
+  margin-top: 2vh;
+}
+
+form.anggota-tambah label.form-check-label,
+form.anggota-edit label.form-check-label {
+  margin-top: 0;
+}
+
+.anggota-btn-batal {
+  background-color: #9b9b9b;
+  color: black;
+  font-weight: 600;
+}
+
+.anggota-btn-simpan {
+  background-color: #4cb6f3;
+  color: white;
+  font-weight: 600;
+}
+
+/* Anggota Detail */
+.btn-tutup {
+  font-size: 3vw;
+  width: 25vw;
+  background-color: #4cb6f3;
+  color: white;
+}
+
+h4.anggota-detail {
+  background-color: #cde3e6;
+  height: 4vh;
+  font-size: 2.3vw;
+}
+
+/* Anggota Alert */
+.anggota-img-konfirmasi-box {
+  width: 30%;
+  height: 15vh;
+}
+
+.anggota-img-konfirmasi {
+  width: 100%;
+  height: 100%;
+}
+
+.anggota-btn-konfirmasi-box {
+  width: 70%;
+}
+
+.anggota-text-konfirmasi {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.btn-konfirmasi-batal {
+  width: 18vw;
+  color: black;
+  background-color: white;
+  font-size: 2vw;
+  font-weight: 600;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.btn-konfirmasi-hapus {
+  width: 18vw;
+  color: white;
+  background-color: #e82424;
+  font-size: 2vw;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.anggota-img-dihapus-box {
+  width: 30%;
+  height: 15vh;
+}
+
+.anggota-img-dihapus {
+  width: 100%;
+  height: 100%;
+}
+
+.anggota-text-dihapus {
+  width: 70%;
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+@media (min-width: 576px) {
+  .anggota-search-icon-box {
+    width: 15%;
+    max-width: 45px !important;
+  }
+
+  .anggota-form-pencarian {
+    width: 65%;
+  }
+
+  .anggota-form-search {
+    width: 60% !important;
+  }
+
+  .anggota-tambah-buku-box {
+    max-width: 12rem !important;
+  }
+
+  .anggota-table tr th {
+    font-size: 1.8vw;
+  }
+
+  .anggota-table tr td {
+    font-size: 1.5vw;
+  }
+
+  .anggota-btn-aksi {
+    width: 4vw;
+  }
+
+  h4.anggota-detail {
+    height: 6vh;
+    font-size: 2vw;
+  }
+
+  .btn-tutup {
+    font-size: 3vw;
+  }
+
+  .anggota-text-dihapus {
+    font-size: 2.8vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .anggota-search-icon-box {
+    width: 10%;
+  }
+
+  .anggota-form-pencarian {
+    width: 75%;
+  }
+
+  .anggota-table tr th {
+    font-size: 1.5vw;
+  }
+
+  .anggota-table tr td {
+    font-size: 1.3vw;
+  }
+
+  .anggota-btn-aksi {
+    width: 2.6vw;
+  }
+
+  h4.anggota-detail {
+    height: 6vh;
+    font-size: 1.8vw;
+  }
+
+  .btn-tutup {
+    width: 17vw;
+    font-size: 2.5vw;
+  }
+
+  .anggota-img-konfirmasi-box {
+    height: 25vh;
+  }
+
+  .anggota-text-konfirmasi {
+    font-size: 1.4vw;
+  }
+
+  .btn-konfirmasi-batal,
+  .btn-konfirmasi-hapus {
+    width: 12vw;
+    font-size: 1.4vw;
+  }
+
+  .anggota-img-dihapus-box {
+    height: 25vh;
+  }
+
+  .anggota-text-dihapus {
+    font-size: 2.4vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .anggota-search-icon-box {
+    width: 10%;
+    max-width: 40px !important;
+  }
+
+  .anggota-form-pencarian {
+    width: 75%;
+  }
+
+  .anggota-table tr th {
+    font-size: 1.3vw;
+  }
+
+  .anggota-table tr td {
+    font-size: 1.1vw;
+  }
+
+  .anggota-btn-aksi {
+    width: 2.9vw;
+  }
+
+  h4.anggota-detail {
+    font-size: 1.5vw;
+  }
+
+  .btn-tutup {
+    width: 15vw;
+    font-size: 1.7vw;
+  }
+}

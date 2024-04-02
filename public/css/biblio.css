@@ -1,0 +1,281 @@
+/* Global */
+.min-vh-70 {
+  min-height: 70vh !important;
+}
+
+.table-border-bottom {
+  th,
+  td {
+    border-bottom: 1.5px solid gray !important;
+  }
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+/* Biblio */
+.biblio-form-search {
+  width: 100% !important;
+}
+
+.biblio-search-icon-box {
+  border: 1px solid #387df5;
+  border-right: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 10%;
+  min-width: 34px;
+  min-height: 31.92px;
+}
+
+.biblio-form-pencarian {
+  border: 1px solid #387df5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.3rem 0.85rem;
+  width: 75%;
+}
+
+.biblio-tambah-buku-box {
+  background-color: #00b290;
+  color: white;
+  border-radius: 1.5rem;
+  width: 10rem;
+  min-height: 31.92px;
+}
+
+.biblio-table tr th {
+  font-size: 2.3vw;
+}
+
+.biblio-table tr td {
+  font-size: 2.1vw;
+}
+
+.biblio-table th[scope='col tahun-terbit'] {
+  width: 21%;
+}
+
+.biblio-btn-aksi {
+  width: 5vw;
+}
+
+/* Biblio Tambah */
+form.biblio-tambah label,
+form.biblio-edit label {
+  color: #555555;
+  margin-top: 2vh;
+}
+
+form.biblio-tambah label.form-check-label,
+form.biblio-edit label.form-check-label {
+  margin-top: 0;
+}
+
+form.biblio-tambah textarea,
+form.biblio-edit textarea {
+  min-height: 100px !important;
+}
+
+.biblio-btn-batal {
+  background-color: #9b9b9b;
+  color: black;
+  font-weight: 600;
+}
+
+.biblio-btn-simpan {
+  background-color: #4cb6f3;
+  color: white;
+  font-weight: 600;
+}
+
+/* Biblio Detail */
+.biblio-detail-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.biblio-detail-table tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.biblio-btn-tutup {
+  font-size: 3vw;
+  width: 25vw;
+  background-color: #4cb6f3;
+  color: white;
+}
+
+/* biblio Alert */
+.biblio-img-konfirmasi-box {
+  width: 30%;
+  height: 15vh;
+}
+
+.biblio-img-konfirmasi {
+  width: 100%;
+  height: 100%;
+}
+
+.biblio-btn-konfirmasi-box {
+  width: 70%;
+}
+
+.biblio-text-konfirmasi {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.btn-konfirmasi-batal {
+  width: 18vw;
+  color: black;
+  background-color: white;
+  font-size: 2vw;
+  font-weight: 600;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.btn-konfirmasi-hapus {
+  width: 18vw;
+  color: white;
+  background-color: #e82424;
+  font-size: 2vw;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.biblio-img-dihapus-box {
+  width: 30%;
+  height: 15vh;
+}
+
+.biblio-img-dihapus {
+  width: 100%;
+  height: 100%;
+}
+
+.biblio-text-dihapus {
+  width: 70%;
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+@media (min-width: 576px) {
+  .biblio-search-icon-box {
+    width: 15%;
+    max-width: 45px !important;
+  }
+
+  .biblio-form-pencarian {
+    width: 65%;
+  }
+
+  .biblio-form-search {
+    width: 60% !important;
+  }
+
+  .biblio-tambah-buku-box {
+    max-width: 12rem !important;
+  }
+
+  .biblio-table tr th {
+    font-size: 1.8vw;
+  }
+
+  .biblio-table tr td {
+    font-size: 1.5vw;
+  }
+
+  .biblio-btn-aksi {
+    width: 4vw;
+  }
+
+  .biblio-btn-tutup {
+    font-size: 3vw;
+  }
+
+  .biblio-text-dihapus {
+    font-size: 2.8vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .biblio-search-icon-box {
+    width: 10%;
+  }
+
+  .biblio-form-pencarian {
+    width: 75%;
+  }
+
+  .biblio-table tr th {
+    font-size: 1.5vw;
+  }
+
+  .biblio-table tr td {
+    font-size: 1.3vw;
+  }
+
+  .biblio-table th[scope='col tahun-terbit'] {
+    width: 19%;
+  }
+
+  .biblio-btn-aksi {
+    width: 2.6vw;
+  }
+
+  .biblio-btn-tutup {
+    width: 17vw;
+    font-size: 2.5vw;
+  }
+
+  .biblio-img-konfirmasi-box {
+    height: 25vh;
+  }
+
+  .biblio-text-konfirmasi {
+    font-size: 1.4vw;
+  }
+
+  .btn-konfirmasi-batal,
+  .btn-konfirmasi-hapus {
+    width: 12vw;
+    font-size: 1.4vw;
+  }
+
+  .biblio-img-dihapus-box {
+    height: 25vh;
+  }
+
+  .biblio-text-dihapus {
+    font-size: 2.4vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .biblio-search-icon-box {
+    width: 10%;
+    max-width: 40px !important;
+  }
+
+  .biblio-form-pencarian {
+    width: 75%;
+  }
+
+  .biblio-table tr th {
+    font-size: 1.3vw;
+  }
+
+  .biblio-table tr td {
+    font-size: 1.1vw;
+  }
+
+  .biblio-btn-aksi {
+    width: 2.9vw;
+  }
+
+  .biblio-btn-tutup {
+    width: 15vw;
+    font-size: 1.7vw;
+  }
+}

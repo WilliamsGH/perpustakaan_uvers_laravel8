@@ -1,0 +1,97 @@
+/* Xtra Small Breakpoint CSS <768 px */
+.bRed {
+  border: 1px solid red;
+}
+
+.bBlue {
+  border: 1px solid blue;
+}
+
+h1 {
+  font-size: 4.5vw;
+  width: 90vw;
+}
+
+.form-box {
+  background-color: #e4f5ff;
+  height: 100vh;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 85%;
+  border-radius: 0 20px 20px 0;
+  font-size: 2.5vw;
+}
+
+input[type='submit'] {
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: #0771bb;
+  color: white;
+  font-weight: 700;
+  font-size: 4vw;
+  margin-top: 1.5rem;
+}
+
+.login-icons {
+  width: 7vw !important;
+  height: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-icons-box {
+  border-radius: 20px 0 0 20px;
+  width: 15%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 90vw;
+}
+
+@media (min-width: 768px) {
+  /* img di icons juga pengaruh */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2vw;
+    width: 100%;
+  }
+
+  .form-box {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .login-icons {
+    width: 2vw !important;
+  }
+
+  input[type='text'],
+  input[type='password'] {
+    font-size: 1.5vw;
+  }
+
+  input[type='submit'] {
+    font-size: 1.7vw;
+  }
+}

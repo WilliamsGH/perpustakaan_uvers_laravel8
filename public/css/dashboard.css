@@ -1,0 +1,133 @@
+.dashboard-menu-box-1,
+.dashboard-menu-box-2 {
+  background-color: white;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+.dashboard-stat-count {
+  font-size: 6vw;
+}
+
+.dashboard-stat-text {
+  color: #494949;
+  font-size: 3vw;
+}
+
+.dashboard-stat-image {
+  width: 62px;
+  height: 55px;
+}
+
+.dashboard-input-date {
+  text-align: center;
+  width: 19vw !important;
+  height: 4vw !important;
+  font-size: 2.7vw !important;
+}
+
+.dashboard-date-separator {
+  height: 4vw !important;
+}
+
+.dashboard-btn-filter {
+  width: 7vw !important;
+  height: 4vw !important;
+  font-size: 2vw !important;
+}
+
+.dashboard-stat-box {
+  background-color: white;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+canvas {
+  max-width: 100% !important;
+  max-height: 80% !important;
+}
+
+@media (min-width: 576px) {
+  .dashboard-stat-count {
+    font-size: 4vw;
+  }
+
+  .dashboard-stat-text {
+    font-size: 3vw;
+  }
+
+  .dashboard-stat-image {
+    width: 10vw;
+  }
+
+  .dashboard-menu-box-2 {
+    margin-left: 10px;
+  }
+
+  .dashboard-menu-box-1 {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dashboard-stat-count {
+    font-size: 3vw;
+  }
+
+  .dashboard-stat-text {
+    font-size: 1.8vw;
+  }
+
+  .dashboard-stat-image {
+    width: 55px;
+    height: 48px;
+  }
+
+  .dashboard-input-date {
+    width: 14vw !important;
+    height: 3.5vw !important;
+    font-size: 2vw !important;
+  }
+
+  .dashboard-date-separator {
+    height: 3.5vw !important;
+  }
+
+  .dashboard-btn-filter {
+    height: 3.5vw !important;
+    font-size: 2vw !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .dashboard-stat-count {
+    font-size: 2vw;
+  }
+
+  .dashboard-stat-text {
+    font-size: 1.2vw;
+  }
+
+  .dashboard-stat-image {
+    width: 8vw;
+  }
+
+  .dashboard-input-date {
+    width: 9vw !important;
+    height: 2.5vw !important;
+    font-size: 1.3vw !important;
+  }
+
+  .dashboard-date-separator {
+    height: 2.5vw !important;
+  }
+
+  .dashboard-btn-filter {
+    height: 2.5vw !important;
+    font-size: 1.3vw !important;
+  }
+
+  canvas {
+    height: 85% !important;
+  }
+}
