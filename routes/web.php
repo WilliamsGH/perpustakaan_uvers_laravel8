@@ -35,7 +35,7 @@ Route::middleware(['auth'])->group(function () {
         Route::post('/store', [BookController::class, 'store']);
         Route::get('/edit/{id}', [BookController::class, 'edit']);
         Route::post('/edit/{id}', [BookController::class, 'update']);
-        Route::post('/delete/{id}', [BookController::class, 'destory']);
+        Route::post('/delete/{id}', [BookController::class, 'destroy']);
     });
 
     Route::get('borrowing_history', [BookMoveController::class, 'index']);
