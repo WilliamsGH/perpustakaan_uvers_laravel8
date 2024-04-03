@@ -25,7 +25,7 @@ class BookMoveController extends Controller
 
         $move_ids = $move_ids->get();
 
-        return view('contents.borrowing_history.index',  ['title' => 'Riwayat Peminjaman', 'user' => Auth::user(), 'move_ids' => $move_ids] );
+        return view('contents.borrowing_history.index',  ['title' => 'Riwayat Peminjaman', 'user' => Auth::user(), 'move_ids' => $move_ids, 'start_date' => $request['start_date'], 'end_date' => $request['end_date']] );
     }
 
     public function update_rating(UpdateRatingRequest $request)

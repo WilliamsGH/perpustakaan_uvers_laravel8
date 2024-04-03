@@ -21,9 +21,9 @@
           </form>
 
           <form action="" class="ms-md-auto mt-2 mt-md-0 d-flex gap-1">
-            <input type="date" placeholder="Start Date" name="start_date" class="ri-pe-date text-center h-100" />
+            <input type="date" placeholder="Start Date" name="start_date" class="ri-pe-date text-center h-100" value="{{ old('start_date', $start_date) }}"/>
             <span>-</span>
-            <input type="date" placeholder="End Date" name="end_date" class="ri-pe-date text-center h-100" />
+            <input type="date" placeholder="End Date" name="end_date" class="ri-pe-date text-center h-100" value="{{ old('end_date', $end_date) }}"/>
             <button class="btn btn-primary ri-pe-btn-filter p-0" type="submit">
               Filter
             </button>
